@@ -33,23 +33,7 @@
         <link rel="stylesheet" href="assets/css/color.css">
         <!--<< Main.css >>-->
         <link rel="stylesheet" href="assets/css/main.css">
-        
-
-    <script>
-       var isNS = (navigator.appName == "PN") ? 1 : 0;
-       if(navigator.appName == "PN") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);
-       function mischandler(){
-       return false;
-       }
-       function mousehandler(e){
-       var myevent = (isNS) ? e : event;
-       var eventbutton = (isNS) ? myevent.which : myevent.button;
-       if((eventbutton==2)||(eventbutton==3)) return false;
-       }
-       document.oncontextmenu = mischandler;
-       document.onmousedown = mousehandler;
-       document.onmouseup = mousehandler;
-       </script>
+        <link rel="stylesheet" href="assets/css/call.css"> 
     </head>
     <body >
 
@@ -227,9 +211,8 @@
                                                 <i class="fa-solid fa-chevron-down"></i>
                                             </a>
                                             <ul class="submenu">
-                                                <li><a href="">Photography </a></li>
-                                                <li><a href="">Videography </a></li>
-                                                 <li><a href="">Digital Service </a></li>
+                                                <li><a href="service.html">Service </a></li>
+                                                <li><a href="service-details.html">Service </a></li>
                                             </ul>
                                         </li>
                                         <li>
@@ -1660,7 +1643,9 @@
             </div>
         </section>
 
-       
+        <a id="callme" href="tel:+971562676382">
+    <div id="callmeMain"></div>
+ </a>
         
         <!--<< All JS Plugins >>-->
         <script src="assets/js/jquery-3.7.1.min.js"></script>
