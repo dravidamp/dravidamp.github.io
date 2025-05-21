@@ -1,19 +1,12 @@
-/*
-Theme Name: Digtek
-Author: Gramentheme
-Author URI: https://themeforest.net/user/Gramentheme
-Description: Digtek - Digital Marketing Agency Html Template
-Version: 1.0.0
-*/
-/*CSS Table Of Content Ends Here*/
+
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
 :root {
   --body: #fff;
   --black: #000;
   --white: #fff;
-  --theme: #6A47ED;
-  --theme2: #C6F806;
+  --theme: #fbac06;
+  --theme2: #fbac06;
   --header: #17012C;
   --text: #504E4E;
   --border: #E5E5E5;
@@ -3899,7 +3892,7 @@ span {
   }
 }
 .hero-3 .hero-content h1 span {
-  background: linear-gradient(90deg, #6A47ED 35.31%, #FB17FF 100%);
+  background: linear-gradient(90deg, #fbac06 35.31%, #FB17FF 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -5192,7 +5185,7 @@ input.main-search-input::placeholder {
   background-color: var(--theme);
 }
 .pricing-box-items.style-2 .pricing-header {
-  background: #6A47ED;
+  background: #fbac06;
 }
 .pricing-box-items.style-2 .price-button .theme-btn {
   border: 1.5px solid var(--theme);
@@ -6048,7 +6041,7 @@ input.main-search-input::placeholder {
   line-height: 175%;
   color: var(--text);
   font-style: italic;
-  border-left: 1px solid #6A47ED;
+  border-left: 1px solid #fbac06;
   padding-left: 20px;
 }
 .section-title-area p.white-text {
